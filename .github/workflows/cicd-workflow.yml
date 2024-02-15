@@ -2,9 +2,9 @@
 
 name: CICD GitHub workflow
 
-on: 
-  push:
-    branches: [ "release-*" ]
+on: workflow_dispatch
+ # push:
+  #  branches: [ "release-*" ]
 
   # pull_request:
   #   branches: [ "main" ]
